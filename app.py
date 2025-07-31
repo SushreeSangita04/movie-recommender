@@ -26,7 +26,7 @@ def recommend(movie):
     return recommend_list,recommended_movies_posters
 st.title('Movie Recommender System')
 option = st.selectbox(
-    "How movie would you like to watch?",
+    "What movie would you like to watch?",
     movies['title'].values,
     index=None,
     placeholder="Select your mood",
